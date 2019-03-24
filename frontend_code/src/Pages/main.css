@@ -1,0 +1,23 @@
+.customBg{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.contactBg{
+    background-color: teal;
+    padding: 3%;
+}
+.contactFormHeading{
+    font-size: 200%;
+    font-weight: bold;
+}
+.customBgFrom{
+    background-color: #fff;
+    margin-top: 25px;
+    padding:20px;
+    border-radius: 5%;
+}
+.displayLinks{
+    /*for footer links*/
+    font-size: 70%;
+    text-align: center;
+    color: black;
+}

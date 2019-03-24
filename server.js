@@ -9,11 +9,17 @@ const bodyParser = require('body-parser');
 const PORT = process.env.PORT || 4000;
 const cors = require('cors');
 const fs = require('fs')
+const exphbs = require('express-handlebars');
+
+
 
 
 //DB import
 const mongoose = require('mongoose');
 const config = require('./DB.js');
+
+app.engine('handlebars', exphbs({ defaultLayout: './views/index' }))
+app.set('view engine', 'handlebars')
 
 
 //Login system setting
@@ -92,6 +98,11 @@ app.use('/acd', ACDRoute);
 app.use('/static', staticRoute);
 app.use('/auth', authRoute);
 app.use('/session', sessionRoute);
+
+
+app.get('/', (req, res) => {
+  res.render('index')
+})
 
 
 // error handler

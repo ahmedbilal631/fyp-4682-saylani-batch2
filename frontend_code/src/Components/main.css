@@ -1,0 +1,122 @@
+.adHeading{
+    text-align: center;
+}
+.msgDisplay{
+    margin-top: 2%;
+}
+.navCustom{
+    position: sticky;
+}
+.displayTxt{
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 80%;
+}
+.paragraph{
+    
+    background-image:linear-gradient(rgba(26, 26, 26, 0.7),rgba(26, 26, 26, 0.7)), url('../images/slider/img3.jpg');
+    background-size: cover;
+
+}
+.quickLinks{
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.welcomeAdmin{
+    background-color: rgba(26, 26, 26, 0.7);
+    font-weight: bolder;
+    font-size: 300%;
+    color: white;
+    text-align: center;
+}
+.newsFeed{
+    height: 80%;
+}
+
+
+/*Custom Css Starts Here*/
+.ctmHeading{
+    font-weight: bold;
+    font-size: 150%;
+}
+.ctmHeadingCenter{
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.ctmClrWhite{
+    color: white;
+}
+.ctmClrBlack{
+    color: black;
+}
+.ctmClrRed{
+    color: red;
+}
+.ctmBgWhite{
+    background-color: white;
+}
+.ctmBgTeal{
+    background-color: lightslategrey;
+}
+.ctmBold{
+    font-weight: bold;
+}
+.ctmBtnFontX{
+    font-weight: bolder;
+}
+.ctmBorderRight{
+    border-right: 4px double white;
+}
+.ctmBorderBottom{
+    border-bottom: 4px double black;
+}
+.ctmBorderDbBottomWhite{
+    border-bottom: 4px double white;
+}
+.ctmStatusBoxBgWhiteFcBlack{
+    margin: 1em;
+    background-color: rgba(255, 255, 255);
+    border-radius: 30px;
+    border: 0.5em double whitesmoke;
+}
+.ctmStatusTitle{
+    padding: 0.4em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border-bottom: 0.2em double black;
+}
+.ctmStatusTagLine{
+    padding: 0.2em;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.ctmStatusTagLineCenter{
+    padding: 0.2em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.ctmStatusValue{
+    margin: 0.2em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.ctmRowMargin{
+    margin-top: 2em;
+}
+.ctmBorderBU{
+    border-bottom: 1em dashed red;
+    border-top: 1em dashed red;
+}
+
+
+.footerList{
+    border-radius: 5%;
+}
+.ctmPaddingX{
+    padding: 2em;
+}
