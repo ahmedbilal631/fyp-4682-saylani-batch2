@@ -18,7 +18,7 @@ const exphbs = require('express-handlebars');
 const mongoose = require('mongoose');
 const config = require('./DB.js');
 
-app.engine('handlebars', exphbs({ defaultLayout: './views/index' }))
+app.engine('handlebars', exphbs({ defaultLayout: 'index' }))
 app.set('view engine', 'handlebars')
 
 
@@ -100,9 +100,7 @@ app.use('/auth', authRoute);
 app.use('/session', sessionRoute);
 
 
-app.get('/', (req, res) => {
-  res.render('index')
-})
+app.use(express.static("./build"));
 
 
 // error handler
