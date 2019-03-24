@@ -28,7 +28,7 @@ class Header extends Component {
         .then(console.log('Deleted'))
         .catch(err => console.log(err))
         localStorage.removeItem("session");
-        window.location.assign("http://localhost:3000/admin");
+        window.location.assign("https://fyp-4682-saylani-batch2.herokuapp.com/admin");
         // alert("working" + id);
     }
 

@@ -45,7 +45,7 @@ class AdminLogIn extends Component {
             
                     axios.post('http://localhost:4000/session/add', obj)
                         .then(res => console.log(res.data));
-                        window.location.assign("http://localhost:3000/adminPage")
+                        window.location.assign("https://fyp-4682-saylani-batch2.herokuapp.com/adminPage")
                          // alert("Passed");
                 }
                 else{

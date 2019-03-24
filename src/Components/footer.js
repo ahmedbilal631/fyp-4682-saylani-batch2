@@ -13,10 +13,10 @@ class Footer extends Component {
     admin=()=>{
         let ifSession = localStorage.getItem("session");
         if(ifSession !== ""){
-            window.location.assign("http://localhost:3000/adminPage")
+            window.location.assign("https://fyp-4682-saylani-batch2.herokuapp.com/adminPage")
         }
         else{
-            window.location.assign("http://localhost:3000/admin")
+            window.location.assign("https://fyp-4682-saylani-batch2.herokuapp.com/admin")
         }
 
     }

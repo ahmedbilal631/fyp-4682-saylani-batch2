@@ -71,12 +71,12 @@ class NewsEdit extends Component {
                         })
                     }
                     else{
-                      window.location.assign("http://localhost:3000/admin")
+                      window.location.assign("https://fyp-4682-saylani-batch2.herokuapp.com/admin")
                       
                     }
                   }
                   else{
-                    window.location.assign("http://localhost:3000/admin")
+                    window.location.assign("https://fyp-4682-saylani-batch2.herokuapp.com/admin")
                     
                   }
                   
