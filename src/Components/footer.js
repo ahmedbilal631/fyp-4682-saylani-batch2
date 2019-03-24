@@ -89,7 +89,7 @@ class Footer extends Component {
                         <p className="displayTxt">&copy;ISH2019</p>
                         <p className="displayLinks"> <Link to="#">Terms & Conditions</Link> ||
                     <Link to="#">Feedback & FAQ</Link> ||
-                    <Link to="" onClick={this.admin}>Admin</Link> || 
+                    <p onClick={this.admin}>Admin</p> || 
                      </p>
                     </div>
                 </footer>
